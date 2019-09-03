@@ -1,0 +1,84 @@
+.profile-header__inner, .profile-section__inner {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.profile__header {
+  padding: 150px 0;
+  background-color: #bed636;
+  text-align: center;
+  color: #fff;
+}
+
+.profile__header .profile-header__title {
+  font-size: 48px;
+}
+
+.profile__header .profile-header__text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profile__section {
+  padding: 75px 0;
+}
+
+.profile__section:nth-child(2n+1) {
+  background-color: #f5f5f5;
+}
+
+.profile__section .profile-section__title {
+  font-size: 36px;
+  color: #bed636;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.profile__section .profile-section__text, .profile__section .profile-section__text--center {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.profile__section .profile-section__text--center {
+  text-align: center;
+}
+
+.profile__section .profile-imgtext__box {
+  display: table;
+}
+
+.profile__section .profile-imgtext__box div:last-child {
+  padding-left: 30px;
+}
+
+.profile__section .profile-imgtext__image, .profile__section .profile-imgtext__body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.profile__section .profile-imgtext__image img {
+  width: 250px;
+  height: auto;
+}
+
+.profile__section .profile-imgtext__title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.profile__section .profile-imgtext__text {
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.profile__footer {
+  font-size: 14px;
+  padding: 5px 0;
+  background-color: #333;
+  color: #fff;
+  -webkit-text-emphasis: center;
+          text-emphasis: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,11 +1,85 @@
-.profile {
-  &__header {
+$color-main: #bed636;
 
+.profile {
+  &-header__inner,
+  &-section__inner{
+    width: 800px;
+    margin: 0 auto;
   }
+  &__header {
+    padding: 150px 0;
+    background-color: $color-main;
+    text-align: center;
+    color: #fff;
+    .profile-header{
+      &__title{
+        font-size: 48px;
+      }
+      &__text{
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+
   &__section{
+    padding: 75px 0;
+    &:nth-child(2n+1){
+      background-color: #f5f5f5;
+    }
+    .profile-section{
+      &__title{
+        font-size: 36px;
+        color: $color-main;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      &__text{
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 1.8;
+        &--center{
+          text-align: center;
+          @extend .profile-section__text;
+        }
+
+      }
+    }
+    .profile-imgtext{
+      &__box{
+        display: table;
+        div:last-child{
+          padding-left: 30px;
+        }
+      }
+      &__image,
+      &__body{
+        display: table-cell;
+        vertical-align: top;
+      }
+      &__image{
+        img{
+          width: 250px;
+          height: auto;
+        }
+      }
+      &__title{
+        margin-bottom: 5px;
+        font-size: 20px;
+      }
+      &__text{
+        font-size: 14px;
+        margin-bottom: 15px;
+        line-height: 1.8;
+      }
+    }
 
   }
   &__footer{
-    
+    font-size: 14px;
+    padding: 5px 0;
+    background-color: #333;
+    color:#fff;
+    text-emphasis: center;
   }
 }

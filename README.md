@@ -12,3 +12,8 @@ https://qiita.com/m0nch1/items/b01c966dd2273e3f6abe
 https://prog-8.com/blogs/sass-mac
 
 scssを使う時は、CSSにコンパイルする必要がある
+
+
+### 確認箇所
+__footerの文字位置が適用されていない…  
+
